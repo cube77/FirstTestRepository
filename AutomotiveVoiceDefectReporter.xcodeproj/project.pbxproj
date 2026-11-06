@@ -1,0 +1,252 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		064F8634C4B14881A4707435 /* AudioRecordingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0E12B2B84B4467875B72A4 /* AudioRecordingService.swift */; };
+		5D21C63F673A4566B6CCDD70 /* AutomotiveVoiceDefectReporterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187355A294654A7694420AC5 /* AutomotiveVoiceDefectReporterApp.swift */; };
+		759E0C187C77458E8D575304 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43336634F5024795B36CA992 /* RootView.swift */; };
+		832DA0E308444A76B1720462 /* RecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363999FD7DD746029EDAE7A3 /* RecordingView.swift */; };
+		8FAFB15B56C746B9B5F4F718 /* RecordingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA14851125EE4FEC9B60CD15 /* RecordingListView.swift */; };
+		942BDB7C9BF84AD4AF44C48A /* DriveViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4CFBDB4D2849D4A10F9C59 /* DriveViews.swift */; };
+		9C1BECDA94EC4C6095E7FA96 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983F5DD5D9E049C2A4B4A599 /* Models.swift */; };
+		A416587C9B9F45BD8FED9E98 /* AudioStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B0099F1D3540F8987B8F26 /* AudioStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14B0099F1D3540F8987B8F26 /* AudioStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioStore.swift; sourceTree = "<group>"; };
+		187355A294654A7694420AC5 /* AutomotiveVoiceDefectReporterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomotiveVoiceDefectReporterApp.swift; sourceTree = "<group>"; };
+		363999FD7DD746029EDAE7A3 /* RecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingView.swift; sourceTree = "<group>"; };
+		43336634F5024795B36CA992 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		5C4CFBDB4D2849D4A10F9C59 /* DriveViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveViews.swift; sourceTree = "<group>"; };
+		8F0E12B2B84B4467875B72A4 /* AudioRecordingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecordingService.swift; sourceTree = "<group>"; };
+		983F5DD5D9E049C2A4B4A599 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		CA14851125EE4FEC9B60CD15 /* RecordingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingListView.swift; sourceTree = "<group>"; };
+		CE48758C4911430E87BF4E72 /* AutomotiveVoiceDefectReporter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutomotiveVoiceDefectReporter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E741142A2F4D4F92BD06079B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B634ADAAE974B6BAE142EAF = {
+			isa = PBXGroup;
+			children = (
+				C2062956D90F45F19563A821 /* AutomotiveVoiceDefectReporter */,
+				82E9F526BDCF4B3EA16A0FF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82E9F526BDCF4B3EA16A0FF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE48758C4911430E87BF4E72 /* AutomotiveVoiceDefectReporter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2062956D90F45F19563A821 /* AutomotiveVoiceDefectReporter */ = {
+			isa = PBXGroup;
+			children = (
+				187355A294654A7694420AC5 /* AutomotiveVoiceDefectReporterApp.swift */,
+				983F5DD5D9E049C2A4B4A599 /* Models.swift */,
+				14B0099F1D3540F8987B8F26 /* AudioStore.swift */,
+				8F0E12B2B84B4467875B72A4 /* AudioRecordingService.swift */,
+				43336634F5024795B36CA992 /* RootView.swift */,
+				5C4CFBDB4D2849D4A10F9C59 /* DriveViews.swift */,
+				363999FD7DD746029EDAE7A3 /* RecordingView.swift */,
+				CA14851125EE4FEC9B60CD15 /* RecordingListView.swift */,
+			);
+			path = AutomotiveVoiceDefectReporter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F5C08D732BD46E4A9C10147 /* AutomotiveVoiceDefectReporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F24FCEAB76C14327A9F5315F /* Build configuration list for PBXNativeTarget "AutomotiveVoiceDefectReporter" */;
+			buildPhases = (
+				CE5AC001DE5F4D4A86EE5E41 /* Sources */,
+				E741142A2F4D4F92BD06079B /* Frameworks */,
+				E644C655F5664BC48462872C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutomotiveVoiceDefectReporter;
+			productName = AutomotiveVoiceDefectReporter;
+			productReference = CE48758C4911430E87BF4E72 /* AutomotiveVoiceDefectReporter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AFFBEE0CD71441E8DC6BE13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					8F5C08D732BD46E4A9C10147 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = C878C6D254E9436299EA37CE /* Build configuration list for PBXProject "AutomotiveVoiceDefectReporter" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = de;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				de,
+				en,
+				Base,
+			);
+			mainGroup = 5B634ADAAE974B6BAE142EAF;
+			productRefGroup = 82E9F526BDCF4B3EA16A0FF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F5C08D732BD46E4A9C10147 /* AutomotiveVoiceDefectReporter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E644C655F5664BC48462872C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE5AC001DE5F4D4A86EE5E41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D21C63F673A4566B6CCDD70 /* AutomotiveVoiceDefectReporterApp.swift in Sources */,
+				9C1BECDA94EC4C6095E7FA96 /* Models.swift in Sources */,
+				A416587C9B9F45BD8FED9E98 /* AudioStore.swift in Sources */,
+				064F8634C4B14881A4707435 /* AudioRecordingService.swift in Sources */,
+				759E0C187C77458E8D575304 /* RootView.swift in Sources */,
+				942BDB7C9BF84AD4AF44C48A /* DriveViews.swift in Sources */,
+				832DA0E308444A76B1720462 /* RecordingView.swift in Sources */,
+				8FAFB15B56C746B9B5F4F718 /* RecordingListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D71753B075D46D7AFA7D9C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		430173C645A64058AB420D69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 17;
+				DEVELOPMENT_TEAM = MV968MFEMD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Automotive Voice Defect Reporter";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Die App benötigt das Mikrofon, um Fahrzeugfehler während einer Testfahrt als Sprachaufnahme zu dokumentieren.";
+				INFOPLIST_KEY_UIBackgroundModes = audio;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.7;
+				PRODUCT_BUNDLE_IDENTIFIER = de.example.AutomotiveVoiceDefectReporter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		78EEE50D55CC470BBB568943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 17;
+				DEVELOPMENT_TEAM = MV968MFEMD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Automotive Voice Defect Reporter";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Die App benötigt das Mikrofon, um Fahrzeugfehler während einer Testfahrt als Sprachaufnahme zu dokumentieren.";
+				INFOPLIST_KEY_UIBackgroundModes = audio;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.7;
+				PRODUCT_BUNDLE_IDENTIFIER = de.example.AutomotiveVoiceDefectReporter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9D74E25A7EEB4FA39174BBE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C878C6D254E9436299EA37CE /* Build configuration list for PBXProject "AutomotiveVoiceDefectReporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D71753B075D46D7AFA7D9C8 /* Debug */,
+				9D74E25A7EEB4FA39174BBE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F24FCEAB76C14327A9F5315F /* Build configuration list for PBXNativeTarget "AutomotiveVoiceDefectReporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78EEE50D55CC470BBB568943 /* Debug */,
+				430173C645A64058AB420D69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AFFBEE0CD71441E8DC6BE13 /* Project object */;
+}
